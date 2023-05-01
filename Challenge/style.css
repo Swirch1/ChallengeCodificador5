@@ -1,0 +1,229 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    background-color: #2A2F4F;
+    padding: 25px;
+}
+
+.cabezal{
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+}
+
+nav{
+    position:static;
+    top:110px;
+    right: 0;
+}
+
+nav li{
+    display:unset;
+    margin: 0 0 0 15px;
+}
+
+nav a{
+    text-transform: uppercase;
+    color: #edecec;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+    padding: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 2px;
+}
+
+.container{
+    display:flex ;
+    flex-wrap: wrap;
+}
+
+.container div {
+    display: inline-block;
+    text-align: center;
+    vertical-align:middle;
+    margin: 0 0%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border-radius: 0px;
+}
+
+.left{
+    background: linear-gradient(#2A2F4F, #FDE2F3);
+    flex-basis: 75%;
+    
+}
+
+.right{
+    background-color: #2A2F4F;
+    flex-basis: 25%;
+    max-width: 100%;
+    align-content: center;
+    text-align: center;
+    max-height: 100%;
+    color: white;    
+    overflow:scroll;
+    word-wrap: break-word;
+}
+
+
+
+form{
+    margin: 150px 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+form label, form legend{
+    display: block;
+    font-size: 12px;
+    margin: 0 0 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.input-padron{
+    display: block;
+    margin: 10px 10px 10px;
+    padding: 10px 10px;
+    width: 95%;
+    text-align: start;
+    align-self:center ;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 16px;
+}
+
+.checkbox{
+    margin:20px 0;
+}
+
+.enviar{
+    width: 40%;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: bold;
+    color:white;
+    background: #917FB3;
+    border: none;
+    border-radius: 10px;
+    transition: 1s all;
+    cursor:pointer;
+}
+
+.enviar:hover{
+    background: #2A2F4F;
+    transform: scale(1.2);
+}
+
+.borrar{
+    width: 30%;
+    padding: 15px 0;
+    font-size: 16px;
+    font-weight: bold;
+    color:white;
+    background: #917FB3;
+    border: none;
+    align-self: center;
+    border-radius: 10px;
+    transition: 1s all;
+    cursor:pointer;
+}
+
+.borrar:hover{
+    background: #2A2F4F;
+    transform: scale(1.2);
+}
+
+
+/*Aquí inicia el CSS para nuestra home*/
+.banner{
+    width: 100%;
+}
+
+.principal{
+    padding: 3em 0;
+    background: #FEFEFE;
+    width: 940px;
+    margin: 0 auto; 
+}
+
+.titulo-principal{
+    text-align: left;
+    font-size: 1.5em;
+    margin: 0 0 1em;
+    clear:left;
+    color: #FDE2F3;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 2px;
+}
+
+.principal p{
+    margin: 0 0 1em;
+}
+
+.principal strong{
+    font-weight: bold;
+}
+
+.principal em{
+    font-style: italic;
+}
+
+
+/* INICIO DEL PIE DE PAGINA */
+footer{
+    text-align: center;
+    background-color: #FDE2F3;
+    padding:40px;
+}
+
+.copyright{
+    color:black;
+    font-size: 16px;
+    margin:20px;
+}
+
+.piedepagina{
+    color:black;
+    font-size: 14px;
+    margin:5px;
+}
+
+footer .social_icon{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  footer .social_icon li, footer .social_icon li a{
+    list-style:none ;
+    font-size: 1.3em;
+    color: #2A2F4F;
+    margin: 0 10px;
+    display: inline-block;
+    transition: 0.4s;
+  }
+
+  footer .social_icon li a:hover{
+    transform: translateY(-10px); 
+  }
+
+
+@media screen and (max-width:480px){
+    h1{
+        text-align: center;
+    }
+    nav{
+        position: static;
+    }
+    .cabezal, .principal, .mapa-contenido, .contenido-diferenciales, .video {
+        width: auto;
+    }
+    .lista-diferenciales, .imagen-diferenciales{
+        width: 100%;
+    }
+
+}
+

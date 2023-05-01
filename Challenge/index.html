@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+
+<html lang="es">
+    
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width"> 
+        <title>Challenge ONE</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <header>
+            <div class="cabezal">
+                <nav>
+                    <a href="https://www.aluracursos.com/challenges/challenge-one-logica/sprint01-construye-un-encriptador-texto-con-javascript">Challenge ONE</a>
+                </nav>
+            </div>
+        </header>
+         
+        <main>
+            
+            <div class="container">
+
+                <div class="left">
+                    <h2 class="titulo-principal">Ingrese su texto:</h2>
+                    <form>  
+                    <textarea cols="70" rows="10" id="mensaje" class="input-padron" required>  </textarea>
+                    </form>
+                    <input id="encriptar" type="submit" value="Encriptar" class="enviar">
+                    <input id="desencriptar" type="submit" value="Desencriptar" class="enviar">
+                </div>
+                
+			<!-- Encriptador -->
+            <div class="right">
+                <div id="textoEncriptado" style="display: none;" > </div>
+                    
+            <!-- Desencriptador -->
+                <div id="textoDesencriptado" style="display: none;" > </div>
+           
+
+                <div >
+                    <img id="imagen" src="imagenes/2.png" alt="Imagen" style="max-width: 100%; max-height: 100%; display: block; margin: auto;" > 	                 
+                </div>
+                    <input type="submit" value="Limpiar" class="borrar" id="reiniciar">
+            </div>
+
+
+			</div>
+            <script src="scripts.js"></script>
+            </ul>
+
+
+
+
+
+
+            
+        </main>
+        
+        <footer>
+            
+            <p class="copyright">Ricardo Rodríguez López - Challenge ONE - 2023 - Grupo 5</p>
+            <ul class="social_icon">
+                <li><a href="https://www.linkedin.com/in/ricardo-r-724466108/"><ion-icon name="logo-linkedin"></ion-icon></a></li>
+                <li><a href="https://github.com/Swirch1"><ion-icon name="logo-github"></ion-icon></a></li>
+            </ul>
+            <p class="piedepagina"> Esta página está creada con el único proposito educativo. </p>
+            <p class="piedepagina"> Challenge ONE Sprint 01: Construye un encriptador de texto con Javascript</p>
+
+            <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+            <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+        </footer>
+        
+    </body>
+</html>
